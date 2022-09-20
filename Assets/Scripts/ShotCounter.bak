@@ -1,0 +1,82 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using TMPro;
+
+public class ShotCounter : MonoBehaviour
+{
+    [SerializeField] CurrentSelectedNode currentnode;
+    private TextMeshProUGUI _text;
+    // Start is called before the first frame update
+    void Start()
+    {
+        _text = GetComponent<TextMeshProUGUI>();
+        UpdateText();
+    }
+
+    public void ResetCounter()
+    {
+        _text.text = "RESET";
+    }
+    
+    public string FindRelationship(CurrentSelectedNode selected, NewNode target)
+    {
+        if(selected.father.Contains(target.name))
+        {
+            return "Father";
+        }
+        else if(selected.mother.Contains(target.name))
+        {
+            return "Mother";
+        }
+        else if(selected.killedby.Contains(target.name))
+        {
+            return "Killer";
+        }
+        else if(selected.siblings.Contains(target.name))
+        {
+            return "Sibling";
+        }
+        else if(selected.childrens.Contains(target.name))
+        {
+            return "Children";
+        }
+        else if(selected.killerof.Contains(target.name))
+        {
+            return "Victim";
+        }
+        else
+        {
+            return "Relationship not found";
+        }
+    }
+    public void UpdateText()
+    {   
+        string newtext = $"<b>Name</b>: <color=\"white\">{currentnode.selectednodename}</color>\n<b>Connected nodes:</b>\n<color=\"blue\">";
+        /* foreach (NewNode node in currentnode.GetCurrentlyConnectedNodes())
+        {
+            newtext += node.name + " (" + FindRelationship(currentnode, node) + ")\n";
+        }
+        newtext += "</color><b>Outgoing:</b>\n<color=\"green\">";
+        foreach (NewNode node in currentnode.GetCurrentlyOutgoingNodes())
+        {
+            newtext += node.name + "\n";
+        }
+        newtext += "</color><b>Incoming:</b>\n<color=\"black\">";
+        foreach (NewNode node in currentnode.GetCurrentlyIncomingNodes())
+        {
+            newtext += node.name + "\n";
+        }
+        newtext += "</color>"; */
+        _text.text = newtext;
+    }
+
+    void Update(){
+        
+        if(_text.text != currentnode.GetName() && _text.text != "RESET")
+        {
+            UpdateText();
+        }
+    }
+
+}

@@ -1,0 +1,16 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SetAsCurrentNode : MonoBehaviour
+{
+    [SerializeField] CurrentSelectedNode CurrentNodeHandler;
+    public void SetNodeAsCurrentNode()
+    {
+        Debug.Log("Setting as current Node");
+        
+        NewNode thisnode = this.transform.gameObject.GetComponent<NewNode>();
+        Debug.Log(thisnode.GetName());
+        CurrentNodeHandler.SetCurrentSelectedNode(thisnode.GetName(), thisnode.GetEdges(), thisnode.GetJoints(), thisnode.GetConnectedNodes(), thisnode.GetOutgoingNodes(), thisnode.GetIncomingNodes());
+    }
+}

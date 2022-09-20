@@ -1,0 +1,2770 @@
+graph
+[
+  Creator "Gephi"
+  directed 1
+  node
+  [
+    id 0
+    label "0"
+    status "Alive"
+    house-birth "House Arryn"
+    name "Robin Arryn"
+  ]
+  node
+  [
+    id 1
+    label "1"
+
+    status "Alive"
+    house-birth "House Clegane"
+    name "Gregor Clegane"
+  ]
+  node
+  [
+    id 2
+    label "2"
+
+    status "Alive"
+    house-birth "House Clegane"
+    name "Sandor Clegane"
+    group "Brotherhood Without Banners"
+  ]
+  node
+  [
+    id 3
+    label "3"
+
+    status "Alive"
+    name "Drogon"
+  ]
+  node
+  [
+    id 4
+    label "4"
+
+    status "Alive"
+    house-birth "House Baratheon"
+    name "Gendry"
+  ]
+  node
+  [
+    id 5
+    label "5"
+
+    status "Alive"
+    name "Ghost"
+  ]
+  node
+  [
+    id 6
+    label "6"
+
+    status "Alive"
+    name "Grey Worm"
+  ]
+  node
+  [
+    id 7
+    label "7"
+
+    status "Alive"
+    house-birth "House Greyjoy"
+    name "Aeron Greyjoy"
+  ]
+  node
+  [
+    id 8
+    label "8"
+
+    status "Alive"
+    house-birth "House Greyjoy"
+    name "Euron Greyjoy"
+  ]
+  node
+  [
+    id 9
+    label "9"
+
+    status "Alive"
+    house-birth "House Greyjoy"
+    name "Theon Greyjoy"
+  ]
+  node
+  [
+    id 10
+    label "10"
+
+    status "Alive"
+    house-birth "House Greyjoy"
+    name "Yara Greyjoy"
+  ]
+  node
+  [
+    id 11
+    label "11"
+
+    status "Alive"
+    house-birth "House Targaryen"
+    name "Jon Snow"
+  ]
+  node
+  [
+    id 12
+    label "12"
+
+    status "Alive"
+    house-birth "House Lannister"
+    name "Cersei Lannister"
+  ]
+  node
+  [
+    id 13
+    label "13"
+
+    status "Alive"
+    house-birth "House Lannister"
+    name "Jaime Lannister"
+  ]
+  node
+  [
+    id 14
+    label "14"
+
+    status "Alive"
+    house-birth "House Lannister"
+    name "Tyrion Lannister"
+  ]
+  node
+  [
+    id 15
+    label "15"
+
+    status "Alive"
+    name "Melisandre"
+  ]
+  node
+  [
+    id 16
+    label "16"
+
+    status "Alive"
+    name "Missandei"
+  ]
+  node
+  [
+    id 17
+    label "17"
+
+    status "Alive"
+    house-birth "House Mormont"
+    name "Jorah Mormont"
+  ]
+  node
+  [
+    id 18
+    label "18"
+
+    status "Alive"
+    name "Night King"
+  ]
+  node
+  [
+    id 19
+    label "19"
+
+    status "Alive"
+    name "Nymeria"
+  ]
+  node
+  [
+    id 20
+    label "20"
+
+    status "Alive"
+    house-birth "House Payne"
+    name "Ilyn Payne"
+  ]
+  node
+  [
+    id 21
+    label "21"
+
+    status "Alive"
+    house-birth "House Payne"
+    name "Podrick Payne"
+  ]
+  node
+  [
+    id 22
+    label "22"
+
+    status "Alive"
+    house-birth "House Reed"
+    name "Howland Reed"
+  ]
+  node
+  [
+    id 23
+    label "23"
+
+    status "Alive"
+    house-birth "House Reed"
+    name "Meera Reed"
+  ]
+  node
+  [
+    id 24
+    label "24"
+
+    status "Alive"
+    name "Rhaegal"
+  ]
+  node
+  [
+    id 25
+    label "25"
+
+    status "Alive"
+    house-birth "Sand Snakes"
+    name "Ellaria Sand"
+  ]
+  node
+  [
+    id 26
+    label "26"
+
+    status "Alive"
+    house-birth "House Stark"
+    name "Arya Stark"
+  ]
+  node
+  [
+    id 27
+    label "27"
+
+    status "Alive"
+    house-birth "House Stark"
+    name "Bran Stark"
+  ]
+  node
+  [
+    id 28
+    label "28"
+
+    status "Alive"
+    house-birth "House Stark"
+    name "Sansa Stark"
+  ]
+  node
+  [
+    id 29
+    label "29"
+
+    status "Alive"
+    house-birth "House Targaryen"
+    name "Daenerys Targaryen"
+  ]
+  node
+  [
+    id 30
+    label "30"
+
+    status "Alive"
+    house-birth "House Tarth"
+    name "Brienne of Tarth"
+  ]
+  node
+  [
+    id 31
+    label "31"
+
+    status "Alive"
+    house-birth "House Tully"
+    name "Edmure Tully"
+  ]
+  node
+  [
+    id 32
+    label "32"
+
+    status "Deceased"
+    house-birth "House Arryn"
+    name "Jon Arryn"
+  ]
+  node
+  [
+    id 33
+    label "33"
+
+    status "Deceased"
+    house-birth "House Tully"
+    name "Lysa Arryn"
+    house-marriage "House Arryn"
+  ]
+  node
+  [
+    id 34
+    label "34"
+
+    status "Deceased"
+    house-birth "House Baelish"
+    name "Petyr Baelish"
+    house-marriage "House Arryn"
+  ]
+  node
+  [
+    id 35
+    label "35"
+
+    status "Deceased"
+    house-birth "House Baratheon"
+    name "Joffrey Baratheon"
+  ]
+  node
+  [
+    id 36
+    label "36"
+
+    status "Deceased"
+    house-birth "House Baratheon"
+    name "Myrcella Baratheon"
+  ]
+  node
+  [
+    id 37
+    label "37"
+
+    status "Deceased"
+    house-birth "House Baratheon"
+    name "Robert Baratheon"
+  ]
+  node
+  [
+    id 38
+    label "38"
+
+    status "Deceased"
+    house-birth "House Baratheon"
+    name "Shireen Baratheon"
+  ]
+  node
+  [
+    id 39
+    label "39"
+
+    status "Deceased"
+    house-birth "House Baratheon"
+    name "Stannis Baratheon"
+  ]
+  node
+  [
+    id 40
+    label "40"
+
+    status "Deceased"
+    house-birth "House Baratheon"
+    name "Tommen Baratheon"
+  ]
+  node
+  [
+    id 41
+    label "41"
+
+    status "Deceased"
+    house-birth "House Bolton"
+    name "Ramsay Bolton"
+  ]
+  node
+  [
+    id 42
+    label "42"
+
+    status "Deceased"
+    house-birth "House Bolton"
+    name "Roose Bolton"
+  ]
+  node
+  [
+    id 43
+    label "43"
+
+    status "Deceased"
+    house-birth "House Dayne"
+    name "Arthur Dayne"
+  ]
+  node
+  [
+    id 44
+    label "44"
+
+    status "Deceased"
+    name "Drogo"
+    house-marriage "House Targaryen"
+  ]
+  node
+  [
+    id 45
+    label "45"
+
+    status "Deceased"
+    house-birth "House Frey"
+    name "Walder Frey"
+  ]
+  node
+  [
+    id 46
+    label "46"
+
+    status "Deceased"
+    house-birth "House Greyjoy"
+    name "Balon Greyjoy"
+  ]
+  node
+  [
+    id 47
+    label "47"
+
+    status "Deceased"
+    name "Grey Wind"
+  ]
+  node
+  [
+    id 48
+    label "48"
+
+    status "Deceased"
+    name "High Sparrow"
+  ]
+  node
+  [
+    id 49
+    label "49"
+
+    status "Deceased"
+    name "Lady"
+  ]
+  node
+  [
+    id 50
+    label "50"
+
+    status "Deceased"
+    house-birth "House Lannister"
+    name "Kevan Lannister"
+  ]
+  node
+  [
+    id 51
+    label "51"
+
+    status "Deceased"
+    name "Lancel Lannister"
+  ]
+  node
+  [
+    id 52
+    label "52"
+
+    status "Deceased"
+    house-birth "House Lannister"
+    name "Tywin Lannister"
+  ]
+  node
+  [
+    id 53
+    label "53"
+
+    status "Deceased"
+    house-birth "House Martell"
+    name "Elia Martell"
+    house-marriage "House Targaryen"
+  ]
+  node
+  [
+    id 54
+    label "54"
+
+    status "Deceased"
+    house-birth "House Martell"
+    name "Oberyn Martell"
+  ]
+  node
+  [
+    id 55
+    label "55"
+
+    status "Deceased"
+    house-birth "House Mormont"
+    name "Jeor Mormont"
+    group "Night's Watch"
+  ]
+  node
+  [
+    id 56
+    label "56"
+
+    status "Deceased"
+    name "Olly"
+    group "Night's Watch"
+  ]
+  node
+  [
+    id 57
+    label "57"
+
+    status "Deceased"
+    name "Osha"
+  ]
+  node
+  [
+    id 58
+    label "58"
+
+    status "Deceased"
+    name "Mance Rayder"
+    group "Free Folk"
+  ]
+  node
+  [
+    id 59
+    label "59"
+
+    status "Deceased"
+    house-birth "House Reed"
+    name "Jojen Reed"
+  ]
+  node
+  [
+    id 60
+    label "60"
+
+    status "Deceased"
+    house-birth "Sand Snakes"
+    name "Nymeria Sand"
+  ]
+  node
+  [
+    id 61
+    label "61"
+
+    status "Deceased"
+    name "Obara Sand"
+    group "Sand Snakes"
+  ]
+  node
+  [
+    id 62
+    label "62"
+
+    status "Deceased"
+    name "Tyene Sand"
+    group "Sand Snakes"
+  ]
+  node
+  [
+    id 63
+    label "63"
+
+    status "Deceased"
+    name "Shae"
+  ]
+  node
+  [
+    id 64
+    label "64"
+
+    status "Deceased"
+    name "Shaggydog"
+  ]
+  node
+  [
+    id 65
+    label "65"
+
+    status "Deceased"
+    name "Benjen Stark"
+    group "House Stark"
+  ]
+  node
+  [
+    id 66
+    label "66"
+
+    status "Deceased"
+    house-birth "House Tully"
+    name "Catelyn Stark"
+    house-marriage "House Stark"
+  ]
+  node
+  [
+    id 67
+    label "67"
+
+    status "Deceased"
+    house-birth "House Stark"
+    name "Eddard Stark"
+  ]
+  node
+  [
+    id 68
+    label "68"
+
+    status "Deceased"
+    house-birth "House Stark"
+    name "Lyanna Stark"
+    house-marriage "House Targaryen"
+  ]
+  node
+  [
+    id 69
+    label "69"
+
+    status "Deceased"
+    house-birth "House Stark"
+    name "Rickard Stark"
+  ]
+  node
+  [
+    id 70
+    label "70"
+
+    status "Deceased"
+    house-birth "House Stark"
+    name "Rickon Stark"
+  ]
+  node
+  [
+    id 71
+    label "71"
+
+    status "Deceased"
+    house-birth "House Stark"
+    name "Robb Stark"
+  ]
+  node
+  [
+    id 72
+    label "72"
+
+    status "Deceased"
+    name "Summer"
+  ]
+  node
+  [
+    id 73
+    label "73"
+
+    status "Deceased"
+    house-birth "House Thorne"
+    name "Alliser Thorne"
+    group "Night's Watch"
+  ]
+  node
+  [
+    id 74
+    label "74"
+
+    status "Uncertain"
+    house-birth "House Dondarrion"
+    name "Beric Dondarrion"
+    group "Brotherhood Without Banners"
+  ]
+  node
+  [
+    id 75
+    label "75"
+
+    status "Alive"
+    name "Tormund"
+    group "Free Folk"
+  ]
+  node
+  [
+    id 76
+    label "76"
+
+    status "Deceased"
+    house-birth "House Targaryen"
+    name "Rhaegar Targaryen"
+  ]
+  node
+  [
+    id 77
+    label "77"
+
+    status "Deceased"
+    house-birth "House Targaryen"
+    name "Aerys II Targaryen"
+  ]
+  node
+  [
+    id 78
+    label "78"
+
+    status "Deceased"
+    name "Viserion"
+  ]
+  node
+  [
+    id 79
+    label "79"
+
+    status "Deceased"
+    house-birth "House Baratheon"
+    name "Renly Baratheon"
+  ]
+  node
+  [
+    id 80
+    label "80"
+
+    status "Alive"
+    house-birth "House Stark"
+    name "Brandon Stark"
+  ]
+  node
+  [
+    id 81
+    label "81"
+
+    status "Deceased"
+    house-birth "House Tyrell"
+    name "Margaery Tyrell"
+    house-marriage "House Baratheon"
+  ]
+  node
+  [
+    id 82
+    label "82"
+
+    status "Deceased"
+    house-birth "House Targaryen"
+    name "Rhaella Targaryen"
+  ]
+  node
+  [
+    id 83
+    label "83"
+
+    status "Deceased"
+    house-birth "House Redwyne"
+    name "Olenna Tyrell"
+    house-marriage "House Tyrell"
+  ]
+  edge
+  [
+    id 0
+    source 73
+    target 11
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 1
+    source 56
+    target 11
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 2
+    source 33
+    target 32
+    value 2.0
+    directed 1
+    relation "spouse"
+  ]
+  edge
+  [
+    id 3
+    source 34
+    target 33
+    value 3.0
+    directed 1
+    relation "spouse"
+  ]
+  edge
+  [
+    id 4
+    source 26
+    target 34
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 5
+    source 83
+    target 35
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 6
+    source 25
+    target 36
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 7
+    source 15
+    target 38
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 8
+    source 30
+    target 39
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 9
+    source 41
+    target 42
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 10
+    source 67
+    target 43
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 11
+    source 29
+    target 44
+    value 2.0
+    directed 1
+    relation "spouse"
+  ]
+  edge
+  [
+    id 12
+    source 26
+    target 45
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 13
+    source 8
+    target 46
+    value 2.0
+    directed 1
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 14
+    source 12
+    target 48
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 15
+    source 67
+    target 49
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 16
+    source 12
+    target 50
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 17
+    source 12
+    target 51
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 18
+    source 14
+    target 52
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 19
+    source 1
+    target 53
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 20
+    source 1
+    target 54
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 21
+    source 11
+    target 56
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 22
+    source 41
+    target 57
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 23
+    source 11
+    target 58
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 24
+    source 8
+    target 60
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 25
+    source 8
+    target 61
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 26
+    source 12
+    target 62
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 27
+    source 14
+    target 63
+    value 2.0
+    directed 1
+    relation "lover"
+  ]
+  edge
+  [
+    id 28
+    source 20
+    target 67
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 29
+    source 77
+    target 69
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 30
+    source 41
+    target 70
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 31
+    source 42
+    target 71
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 32
+    source 11
+    target 73
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 33
+    source 1
+    target 74
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 34
+    source 2
+    target 74
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 35
+    source 37
+    target 76
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 36
+    source 13
+    target 77
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 37
+    source 18
+    target 78
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 38
+    source 15
+    target 79
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 39
+    source 12
+    target 81
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 40
+    source 13
+    target 83
+    value 1.0
+    directed 1
+    relation "killed"
+  ]
+  edge
+  [
+    id 41
+    source 32
+    target 0
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 42
+    source 33
+    target 0
+    value 1.0
+    directed 1
+    relation "mother"
+    type "biological"
+  ]
+  edge
+  [
+    id 43
+    source 2
+    target 1
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 44
+    source 24
+    target 3
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 45
+    source 78
+    target 3
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 46
+    source 37
+    target 4
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 47
+    source 47
+    target 5
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 48
+    source 49
+    target 5
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 49
+    source 19
+    target 5
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 50
+    source 72
+    target 5
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 51
+    source 64
+    target 5
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 52
+    source 46
+    target 7
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 53
+    source 8
+    target 7
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 55
+    source 46
+    target 9
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 56
+    source 10
+    target 9
+    value 2.0
+    directed 0
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 57
+    source 46
+    target 10
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 58
+    source 76
+    target 11
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 59
+    source 68
+    target 11
+    value 1.0
+    directed 1
+    relation "mother"
+    type "biological"
+  ]
+  edge
+  [
+    id 60
+    source 71
+    target 11
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 61
+    source 28
+    target 11
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 62
+    source 26
+    target 11
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 63
+    source 27
+    target 11
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 64
+    source 70
+    target 11
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 65
+    source 52
+    target 12
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 66
+    source 13
+    target 12
+    value 2.0
+    directed 0
+    relation "lover"
+    type "biological"
+  ]
+  edge
+  [
+    id 67
+    source 14
+    target 12
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 68
+    source 52
+    target 13
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 69
+    source 14
+    target 13
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 70
+    source 52
+    target 14
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 71
+    source 55
+    target 17
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 72
+    source 47
+    target 19
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 73
+    source 49
+    target 19
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 74
+    source 72
+    target 19
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 75
+    source 64
+    target 19
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 76
+    source 22
+    target 23
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 77
+    source 59
+    target 23
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 78
+    source 78
+    target 24
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 79
+    source 67
+    target 26
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 80
+    source 66
+    target 26
+    value 1.0
+    directed 1
+    relation "mother"
+    type "biological"
+  ]
+  edge
+  [
+    id 81
+    source 71
+    target 26
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 82
+    source 28
+    target 26
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 83
+    source 27
+    target 26
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 84
+    source 67
+    target 27
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 85
+    source 66
+    target 27
+    value 1.0
+    directed 1
+    relation "mother"
+    type "biological"
+  ]
+  edge
+  [
+    id 86
+    source 71
+    target 27
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 87
+    source 28
+    target 27
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 88
+    source 67
+    target 28
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 89
+    source 66
+    target 28
+    value 1.0
+    directed 1
+    relation "mother"
+    type "biological"
+  ]
+  edge
+  [
+    id 90
+    source 71
+    target 28
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 91
+    source 77
+    target 29
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 92
+    source 82
+    target 29
+    value 1.0
+    directed 1
+    relation "mother"
+    type "biological"
+  ]
+  edge
+  [
+    id 93
+    source 76
+    target 29
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 94
+    source 66
+    target 31
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 95
+    source 33
+    target 31
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 96
+    source 66
+    target 33
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 97
+    source 13
+    target 35
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 98
+    source 37
+    target 35
+    value 1.0
+    directed 1
+    relation "father"
+    type "legal"
+  ]
+  edge
+  [
+    id 99
+    source 12
+    target 35
+    value 1.0
+    directed 1
+    relation "mother"
+    type "biological"
+  ]
+  edge
+  [
+    id 100
+    source 36
+    target 35
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 101
+    source 40
+    target 35
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 102
+    source 13
+    target 36
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 103
+    source 37
+    target 36
+    value 1.0
+    directed 1
+    relation "father"
+    type "legal"
+  ]
+  edge
+  [
+    id 104
+    source 12
+    target 36
+    value 1.0
+    directed 1
+    relation "mother"
+    type "biological"
+  ]
+  edge
+  [
+    id 105
+    source 40
+    target 36
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 106
+    source 39
+    target 37
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 107
+    source 79
+    target 37
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 108
+    source 39
+    target 38
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 109
+    source 79
+    target 39
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 110
+    source 13
+    target 40
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 111
+    source 37
+    target 40
+    value 1.0
+    directed 1
+    relation "father"
+    type "legal"
+  ]
+  edge
+  [
+    id 112
+    source 12
+    target 40
+    value 1.0
+    directed 1
+    relation "mother"
+    type "biological"
+  ]
+  edge
+  [
+    id 113
+    source 42
+    target 41
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 114
+    source 49
+    target 47
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 115
+    source 72
+    target 47
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 116
+    source 64
+    target 47
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 117
+    source 72
+    target 49
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 118
+    source 64
+    target 49
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 119
+    source 52
+    target 50
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 120
+    source 50
+    target 51
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 121
+    source 54
+    target 53
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 122
+    source 22
+    target 59
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 123
+    source 54
+    target 60
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 124
+    source 61
+    target 60
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 125
+    source 62
+    target 60
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 126
+    source 54
+    target 61
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 127
+    source 62
+    target 61
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 128
+    source 54
+    target 62
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 129
+    source 25
+    target 62
+    value 1.0
+    directed 1
+    relation "mother"
+    type "biological"
+  ]
+  edge
+  [
+    id 130
+    source 72
+    target 64
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 131
+    source 69
+    target 65
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 132
+    source 67
+    target 65
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 133
+    source 68
+    target 65
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 134
+    source 69
+    target 67
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 135
+    source 68
+    target 67
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 136
+    source 69
+    target 68
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 137
+    source 67
+    target 70
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 138
+    source 66
+    target 70
+    value 1.0
+    directed 1
+    relation "mother"
+    type "biological"
+  ]
+  edge
+  [
+    id 139
+    source 71
+    target 70
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 140
+    source 28
+    target 70
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 141
+    source 26
+    target 70
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 142
+    source 67
+    target 71
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 143
+    source 66
+    target 71
+    value 1.0
+    directed 1
+    relation "mother"
+    type "biological"
+  ]
+  edge
+  [
+    id 144
+    source 77
+    target 76
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 145
+    source 82
+    target 76
+    value 1.0
+    directed 1
+    relation "mother"
+    type "biological"
+  ]
+  edge
+  [
+    id 146
+    source 82
+    target 77
+    value 2.0
+    directed 0
+    relation "spouse"
+    type "biological"
+  ]
+  edge
+  [
+    id 147
+    source 67
+    target 80
+    value 1.0
+    directed 1
+    relation "father"
+    type "biological"
+  ]
+  edge
+  [
+    id 148
+    source 66
+    target 80
+    value 1.0
+    directed 1
+    relation "mother"
+    type "biological"
+  ]
+  edge
+  [
+    id 149
+    source 71
+    target 80
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 150
+    source 28
+    target 80
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 151
+    source 26
+    target 80
+    value 1.0
+    directed 0
+    relation "sibling"
+    type "biological"
+  ]
+  edge
+  [
+    id 152
+    source 6
+    target 16
+    value 1.0
+    directed 0
+    relation "lover"
+  ]
+  edge
+  [
+    id 153
+    source 11
+    target 29
+    value 1.0
+    directed 0
+    relation "lover"
+  ]
+  edge
+  [
+    id 155
+    source 15
+    target 39
+    value 1.0
+    directed 0
+    relation "lover"
+  ]
+  edge
+  [
+    id 156
+    source 25
+    target 54
+    value 1.0
+    directed 0
+    relation "lover"
+  ]
+  edge
+  [
+    id 157
+    source 52
+    target 63
+    value 1.0
+    directed 0
+    relation "lover"
+  ]
+  edge
+  [
+    id 160
+    source 12
+    target 37
+    value 1.0
+    directed 0
+    relation "spouse"
+  ]
+  edge
+  [
+    id 161
+    source 14
+    target 28
+    value 1.0
+    directed 0
+    relation "spouse"
+  ]
+  edge
+  [
+    id 162
+    source 28
+    target 41
+    value 1.0
+    directed 0
+    relation "spouse"
+  ]
+  edge
+  [
+    id 166
+    source 35
+    target 81
+    value 1.0
+    directed 0
+    relation "spouse"
+  ]
+  edge
+  [
+    id 167
+    source 40
+    target 81
+    value 1.0
+    directed 0
+    relation "spouse"
+  ]
+  edge
+  [
+    id 168
+    source 53
+    target 76
+    value 1.0
+    directed 0
+    relation "spouse"
+  ]
+  edge
+  [
+    id 169
+    source 66
+    target 67
+    value 1.0
+    directed 0
+    relation "spouse"
+  ]
+  edge
+  [
+    id 170
+    source 68
+    target 76
+    value 1.0
+    directed 0
+    relation "spouse"
+  ]
+  edge
+  [
+    id 172
+    source 79
+    target 81
+    value 1.0
+    directed 0
+    relation "spouse"
+  ]
+  edge
+  [
+    id 173
+    source 3
+    target 29
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "dragon"
+  ]
+  edge
+  [
+    id 174
+    source 78
+    target 29
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "dragon"
+  ]
+  edge
+  [
+    id 175
+    source 4
+    target 11
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 176
+    source 5
+    target 11
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "direwolf"
+  ]
+  edge
+  [
+    id 178
+    source 10
+    target 29
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 179
+    source 15
+    target 11
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 180
+    source 15
+    target 29
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 181
+    source 19
+    target 26
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "direwolf"
+  ]
+  edge
+  [
+    id 182
+    source 21
+    target 30
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 183
+    source 24
+    target 29
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "dragon"
+  ]
+  edge
+  [
+    id 184
+    source 47
+    target 71
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "direwolf"
+  ]
+  edge
+  [
+    id 185
+    source 49
+    target 28
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "direwolf"
+  ]
+  edge
+  [
+    id 186
+    source 64
+    target 70
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "direwolf"
+  ]
+  edge
+  [
+    id 187
+    source 72
+    target 27
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "direwolf"
+  ]
+  edge
+  [
+    id 188
+    source 75
+    target 11
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 189
+    source 22
+    target 67
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 190
+    source 17
+    target 29
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 191
+    source 16
+    target 29
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 192
+    source 6
+    target 29
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "oath"
+  ]
+  edge
+  [
+    id 193
+    source 1
+    target 37
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "kingsguard"
+  ]
+  edge
+  [
+    id 194
+    source 1
+    target 35
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "kingsguard"
+  ]
+  edge
+  [
+    id 195
+    source 1
+    target 40
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "kingsguard"
+  ]
+  edge
+  [
+    id 196
+    source 1
+    target 12
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "queensquard"
+  ]
+  edge
+  [
+    id 197
+    source 2
+    target 37
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "kingsguard"
+  ]
+  edge
+  [
+    id 198
+    source 2
+    target 35
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "kingsguard"
+  ]
+  edge
+  [
+    id 199
+    source 14
+    target 29
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "hand"
+  ]
+  edge
+  [
+    id 200
+    source 67
+    target 37
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "hand"
+  ]
+  edge
+  [
+    id 201
+    source 20
+    target 37
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 202
+    source 20
+    target 35
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 203
+    source 23
+    target 27
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 204
+    source 59
+    target 27
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 205
+    source 25
+    target 29
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 206
+    source 30
+    target 66
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "oath"
+  ]
+  edge
+  [
+    id 207
+    source 32
+    target 37
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "hand"
+  ]
+  edge
+  [
+    id 208
+    source 43
+    target 76
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "hand"
+  ]
+  edge
+  [
+    id 209
+    source 42
+    target 45
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 210
+    source 45
+    target 52
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 211
+    source 46
+    target 12
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 212
+    source 57
+    target 67
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 213
+    source 9
+    target 67
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "ward"
+  ]
+  edge
+  [
+    id 214
+    source 83
+    target 29
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "pledge"
+  ]
+  edge
+  [
+    id 215
+    source 78
+    target 18
+    value 1.0
+    directed 1
+    relation "allegiance"
+    type "dragon"
+  ]
+]

@@ -1,0 +1,81 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CurrentSelectedNode : MonoBehaviour
+{
+    [SerializeField] List<GameObject>  selectededges = new List<GameObject>();
+    [SerializeField] List<SpringJoint> selectedjoints = new List<SpringJoint>();
+    [SerializeField] List<NewNode> selectedconnectednodes = new List<NewNode>();
+    [SerializeField] List<NewNode> selectedoutgoingnodes = new List<NewNode>();
+    [SerializeField] List<NewNode> selectedincomingnodes = new List<NewNode>();
+    [SerializeField] public string selectednodename = "";
+    [SerializeField] public List<string> father = new List<string>();
+    [SerializeField] public List<string> mother = new List<string>();
+    [SerializeField] public List<string> killedby = new List<string>();
+    [SerializeField] public List<string> siblings = new List<string>();
+    [SerializeField] public List<string> childrens = new List<string>();
+    [SerializeField] public List<string> killerof = new List<string>();
+
+    public void SetCurrentSelectedNode(string name, List<GameObject> edges, List<SpringJoint> joints, List<NewNode> connectednodes, List<NewNode> outgoingnodes, List<NewNode> incomingnodes)
+    {
+        SetCurrentName(name);
+        SetEdges(edges);
+        SetJoints(joints);
+        SetConnectedNodes(connectednodes);
+        SetOutgoingNodes(outgoingnodes);
+        SetIncomingNodes(incomingnodes);
+    }
+    void Start()
+    {
+
+    }
+    void Update()
+    {
+
+    }
+    public string GetName()
+    {
+        return this.selectednodename;
+    }
+
+    public void SetCurrentName(string nametoset)
+    {
+        this.selectednodename = nametoset;
+    }
+
+    public void SetJoints(List<SpringJoint> jointstoset)
+    {
+        this.selectedjoints = jointstoset;
+    }
+
+    public void SetEdges(List<GameObject> edgestoset)
+    {
+        this.selectededges = edgestoset;
+    }
+
+    public void SetConnectedNodes(List<NewNode> connectednodes)
+    {
+        this.selectedconnectednodes = connectednodes;
+    }
+
+    public void SetOutgoingNodes(List<NewNode> outgoingnodes)
+    {
+        this.selectedoutgoingnodes = outgoingnodes;
+    }
+
+    public void SetIncomingNodes(List<NewNode> incomingnodes)
+    {
+        this.selectedincomingnodes = incomingnodes;
+    }
+
+    public List<NewNode> GetCurrentlyConnectedNodes(){
+        return this.selectedconnectednodes;
+    }
+    public List<NewNode> GetCurrentlyOutgoingNodes(){
+        return this.selectedoutgoingnodes;
+    }
+    public List<NewNode> GetCurrentlyIncomingNodes(){
+        return this.selectedincomingnodes;
+    }
+}
