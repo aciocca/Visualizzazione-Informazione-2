@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace GraphMLParser
 {
-    internal class GraphMLParser
+    class GraphMLParser
     {
         public Graph LoadGraphFromFile(string filepath)
         {
@@ -15,14 +15,17 @@ namespace GraphMLParser
         private Graph ParseGML(XDocument xDoc)
         {
             Graph graph = new Graph();
-            (graph.NodeAttributes, graph.EdgeAttributes, graph.IsDirected) = ReadHeader(xDoc);
+            (graph.NodeAttributes, graph.EdgeAttributes, graph.IsDirected) = ReadHeader(xDoc); // nodeAttributes is a list
+            // of all possible attributes
+            // for the node,
+            // with their default value
+            // if it exits
             graph.GraphNodes = GetNodes(xDoc, graph.NodeAttributes);
-            List<Edge> edgeList = GetEdges(xDoc, ref graph); // I'm passing the reference to the graph here to avoid
+            graph.GraphEdges = GetEdges(xDoc, ref graph); // I'm passing the reference to the graph here to avoid
             // cycling over the list of edges an extra time
-            graph.GraphEdges = edgeList;
             return graph;
         }
-        private XDocument LoadGML(string filepath)
+        private static XDocument LoadGML(string filepath)
         {
             XDocument xDoc = new XDocument();
             try
@@ -49,49 +52,24 @@ namespace GraphMLParser
                 node.Name = node.Name.LocalName;
             }
         }
-        private static void SetNodeConnections(Node source, Node target, bool isDirected)
+        private static void SetNodeConnections(Node source, Node target, Edge edge)
         {
-            if (isDirected)
+            try
             {
-                try
-                {
-                    source.ConnectedNodes.Add(target.ID, new List<ushort>() { 3 });
-                }
-                catch (Exception ex) when(ex is ArgumentException)
-                {
-                    source.ConnectedNodes[target.ID].Add(3);
-                }
-
-                try
-                {
-                    target.ConnectedNodes.Add(source.ID, new List<ushort>() { 2 });
-                }
-                catch (ArgumentException)
-                {
-                    target.ConnectedNodes[source.ID].Add(2);
-                }
-            
-            
+                source.ConnectedNodes.Add(target.ID, new List<string>() { edge.EdgeID });
             }
-            else
+            catch (ArgumentException)
             {
-                try
-                {
-                    source.ConnectedNodes.Add(target.ID, new List<ushort>(){1});
-                }
-                catch (ArgumentException)
-                {
-                    source.ConnectedNodes[target.ID].Add(1);
-                }
+                source.ConnectedNodes[target.ID].Add(edge.EdgeID);
+            }
 
-                try
-                {
-                    target.ConnectedNodes.Add(source.ID, new List<ushort>(){1});
-                }
-                catch (ArgumentException)
-                {
-                    target.ConnectedNodes[source.ID].Add(1);
-                }
+            try
+            {
+                target.ConnectedNodes.Add(source.ID, new List<string>() { edge.EdgeID });
+            }
+            catch (ArgumentException)
+            {
+                target.ConnectedNodes[source.ID].Add(edge.EdgeID);
             }
         }
 
@@ -100,31 +78,36 @@ namespace GraphMLParser
             return xDoc.Root?.Name.LocalName == "graphml";
         }
     
-        private (Dictionary<string, string?>, Dictionary<string, string?>, bool) ReadHeader(XDocument xDoc){
-            Dictionary<string, string?> nodeAttributes = new Dictionary<string, string?>();
-            Dictionary<string, string?> edgeAttributes = new Dictionary<string, string?>();
-            XNamespace df = xDoc.Root!.Name.Namespace;
-            IEnumerable<XElement> attributes = xDoc.Descendants(df + "key");
+        private static (Dictionary<string, Key>, Dictionary<string, Key>, bool) ReadHeader(XDocument xDoc)
+        {
+            Dictionary<string, Key> nodeAttributes = new Dictionary<string, Key>();
+            Dictionary<string, Key> edgeAttributes = new Dictionary<string, Key>();
+            // XNamespace df = xDoc.Root!.Name.Namespace; purged namespaces
+            // IEnumerable<XElement> attributes = xDoc.Descendants(df + "key");
+            IEnumerable<XElement> attributes = xDoc.Descendants("key");
             foreach (XElement at in attributes)
             {
-                if (at.Attribute("id")?.Value == null) continue;
+            
+                if (at.Attribute("id") == null || at.Attribute("id")?.Value == null) continue;
+                Key key = new Key(at.Attribute("id")!.Value)
+                {
+                    KeyDefault = at.Descendants("default").Any() ? at.Descendants("default").First().Value : null
+                };
                 if (at.Attribute("for") == null)
                 {
-                    nodeAttributes.Add(at.Attribute("id")!.Value,
-                        at.Descendants("default").Any() ? at.Descendants("default").First().Value : null);
-                    edgeAttributes.Add(at.Attribute("id")!.Value, 
-                        at.Descendants("default").Any() ? at.Descendants("default").First().Value : null);
+                    nodeAttributes.Add(at.Attribute("id")!.Value, key);
+                    edgeAttributes.Add(at.Attribute("id")!.Value, key);
                 }
                 switch (at.Attribute("for")?.Value)
                 {
                     case "node":
-                        // status: defaultstatus, house-birth: defaulthousebirth ecc 
-                        nodeAttributes.Add(at.Attribute("id")!.Value,
-                            at.Descendants("default").Any() ? at.Descendants("default").First().Value : null);
+                        // status: defaultstatus, house-birth: defaulthousebirth ecc
+                        key.KeyFor = "node";
+                        nodeAttributes.Add(at.Attribute("id")!.Value, key);
                         break;
                     case "edge":
-                        edgeAttributes.Add(at.Attribute("id")!.Value, 
-                            at.Descendants("default").Any() ? at.Descendants("default").First().Value : null);
+                        key.KeyFor = "edge";
+                        edgeAttributes.Add(at.Attribute("id")!.Value, key);
                         break;
                 }
                 //TODO all, graph, hyperedge, port and endpoint. 
@@ -141,39 +124,37 @@ namespace GraphMLParser
         }
     
     
-        private static List<Node> GetNodes(XDocument xDoc, Dictionary<string, string?> nodeAttributes)
+        private static Dictionary<string, Node> GetNodes(XDocument xDoc, Dictionary<string, Key> nodeAttributes)
         {
-            List<Node> nodeList = new List<Node>();
+            Dictionary<string, Node> nodeList = new Dictionary<string, Node>();
             IEnumerable<XElement> nodes = xDoc.Descendants("node");
             foreach (XElement node in nodes)
             {
+                // Filtering out wrongly formatted nodes
                 if (node.Attribute("id") == null || node.Attribute("id")?.Value == null) continue;
-                Node nd = new Node(node.Attribute("id")!.Value);
+                Node nd = new Node(node.Attribute("id")!.Value)
+                {
+                    // Setting all the possible node attributes and their default values, if they exists
+                    NodeKeyValues = nodeAttributes
+                };
                 foreach (XElement child in node.Descendants())
                 {
+                    // Filtering out wrongly formatted nodes
                     if (child.Attribute("key") == null|| child.Attribute("key")?.Value == null) continue;
-                    string attributeID = child.Attribute("key")!.Value;
-                    foreach (KeyValuePair<string, string?> ndAttr in nodeAttributes)
+                    Key key = new Key(child.Attribute("key")!.Value)
                     {
-                        if (attributeID != ndAttr.Key) continue;
-                        if (child.IsEmpty)
-                        {
-                            nd.NodeProprieties[ndAttr.Key] = ndAttr.Value;
-                        }
-                        else
-                        {
-                            nd.NodeProprieties[ndAttr.Key] = child.Value;
-                        }
-                    }
+                        KeyValue = child.Value
+                    };
+                    nd.NodeKeyValues[child.Attribute("key")!.Value] = key; 
                 }
-                nodeList.Add(nd);
+                nodeList.Add(node.Attribute("id")!.Value,nd);
             }
             return nodeList;
         }
-        private static List<Edge> GetEdges(XDocument xDoc, ref Graph graph)
+        private static Dictionary<string, List<Edge>> GetEdges(XDocument xDoc, ref Graph graph)
         {
             IEnumerable<XElement> edges = xDoc.Descendants("edge");
-            List<Edge> edgeList = new List<Edge>();
+            Dictionary<string, List<Edge>> edgeList = new Dictionary<string, List<Edge>>();
             bool directed = graph.IsDirected;
             foreach(XElement edge in edges)
             {
@@ -187,30 +168,35 @@ namespace GraphMLParser
                     "undirected" => false,
                     _ => directed
                 };
-                Edge ed = new Edge(source, target, directed);
+                Edge ed = new Edge(source, target, directed)
+                {
+                    EdgeKeyValues = graph.EdgeAttributes
+                };
             
                 foreach(XElement child in edge.Descendants())
                 {
+                    // Filtering out wrongly formatted nodes
                     if (child.Attribute("key") == null || child.Attribute("key")?.Value == null) continue;
-                    string attributeID = child.Attribute("key")!.Value;
-                    foreach (KeyValuePair<string, string?> edgAttr in graph.EdgeAttributes)
+                    Key key = new Key(child.Attribute("key")!.Value)
                     {
-                        if (attributeID != edgAttr.Key) continue;
-                        if (child.IsEmpty)
-                        {
-                            ed.EdgeProprieties[edgAttr.Key] = edgAttr.Value;
-                        }
-                        else
-                        {
-                            ed.EdgeProprieties[edgAttr.Key] = child.Value;
-                        }
-                    }
+                        KeyValue = child.Value
+                    };
+                    ed.EdgeKeyValues[child.Attribute("key")!.Value] = key;
                 }
-                edgeList.Add(ed);
+
+                try
+                {
+                    // Check if it already is on the list
+                    edgeList[ed.SourceNode].Add(ed);
+                }
+                catch (KeyNotFoundException)
+                {
+                    edgeList.Add(ed.SourceNode, new List<Edge>(){ed});
+                }
                 // Updating the connected edges here to save cycling through the list an extra time
                 try
                 {
-                    SetNodeConnections(graph.GetGraphNode(source), graph.GetGraphNode(target), directed);
+                    SetNodeConnections(graph.GetGraphNode(source), graph.GetGraphNode(target), ed);
                 }
                 catch (Exception e)
                 {

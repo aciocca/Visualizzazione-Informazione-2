@@ -16,7 +16,7 @@ public class NewNode : MonoBehaviour
         [SerializeField] List<NewNode> incoming = new List<NewNode>();
         GameObject edgepf;
         GameObject diredgepf;
-        [SerializeField] public Dictionary<string, string> father = new Dictionary<string, string>();
+        [SerializeField] public Dictionary<string, string> father = new Dictionary<string, string>(); // Name, biological/legal
         [SerializeField] public Dictionary<string, string> mother = new Dictionary<string, string>();
         [SerializeField] public List<string> killedby = new List<string>();
         [SerializeField] public Dictionary<string, string> siblings = new Dictionary<string, string>();
